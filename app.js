@@ -8,6 +8,8 @@ const block = React.createElement(
     [React.createElement("div", {id:"child"}, React.createElement("h1",{},"this is first child.")), React.createElement("div", {id:"child2"}, [React.createElement("h1",{},"this is second child H1."), React.createElement("h2",{},"this is second child H2.")])]
 )
 
+console.log(block)
+
 const rootElement = document.getElementById("app")
 const root = ReactDOM.createRoot(rootElement);
 
