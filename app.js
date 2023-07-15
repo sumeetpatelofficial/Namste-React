@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement(
     "h1",
     {id:"heading",style: {color:'red'}},
@@ -5,7 +8,7 @@ const heading = React.createElement(
 
 const block = React.createElement(
     "div",{id:"parent"}, 
-    [React.createElement("div", {id:"child"}, React.createElement("h1",{},"this is first child.")), React.createElement("div", {id:"child2"}, [React.createElement("h1",{},"this is second child H1."), React.createElement("h2",{},"this is second child H2.")])]
+    [React.createElement("div", {id:"child"}, React.createElement("h1",{},"this is first child.🥰")), React.createElement("div", {id:"child2"}, [React.createElement("h1",{},"this is second child H1."), React.createElement("h2",{},"this is second child H2.")])]
 )
 
 console.log(block)
