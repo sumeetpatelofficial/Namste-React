@@ -1,14 +1,14 @@
 # Namste React
 
 # Episode 1
- 1. created HTML with Hello World
- 2. Added React CDN
- 3. Implemented React.createElement, ReactDOM.createRoot, render() to render elements on dom.
 
- Note:  
-    createElement takes 3 arguments and is an Object with symbol,props,etc  
-    Syntax : React.createElement(element,arrtibute object,value)
+1.  created HTML with Hello World
+2.  Added React CDN
+3.  Implemented React.createElement, ReactDOM.createRoot, render() to render elements on dom.
 
+Note:  
+ createElement takes 3 arguments and is an Object with symbol,props,etc  
+ Syntax : React.createElement(element,arrtibute object,value)
 
 # Episode 2 (1:36)
 
@@ -32,4 +32,12 @@
 -- differential bundling  
 -- better error reporting, Diagnostic
 -- Parcel gives you features to host on HTTPS  
--- Tree shaking algorithem - remove unused code for you  
+-- Tree shaking algorithem - remove unused code for you
+
+## Episode 3
+
+-- JSX is not HTML but its a HTML like syntax.  
+-- transpiling is doing by parcel's package babel  
+-- Babel is javascript compliler, transpiler, compliles browser compitable javascript  
+-- React Componnets => Class based componnets and functional componnets  
+-- 🚀 start working with as foundation layed.

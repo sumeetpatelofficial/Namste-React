@@ -1,19 +1,32 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement(
-    "h1",
-    {id:"heading",style: {color:'red'}},
-    "Hello World from React !!!");
+// JSX in action.
+const heading = <h1 id="heading">Namste React using JSX 🚀</h1>;
 
-const block = React.createElement(
-    "div",{id:"parent"}, 
-    [React.createElement("div", {id:"child"}, React.createElement("h1",{},"this is first child.🥰")), React.createElement("div", {id:"child2"}, [React.createElement("h1",{},"this is second child H1."), React.createElement("h2",{},"this is second child H2.")])]
-)
+// React Functional component
+const Title = () => <h4>This is title</h4>;
+const para = (
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+    tempora.
+  </p>
+);
+const number = 1000;
 
-console.log(block)
+const HeadingComponent = () => (
+  <div>
+    <p>{1100 + 200}</p>
+    <Title></Title>
+    {para}
+    <h1 className="abc" style={{ color: "red" }}>
+      This is my functional component
+    </h1>
+  </div>
+);
 
-const rootElement = document.getElementById("app")
+const rootElement = document.getElementById("app");
 const root = ReactDOM.createRoot(rootElement);
 
-root.render(block)
+root.render(heading);
+root.render(HeadingComponent());
