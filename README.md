@@ -41,3 +41,10 @@ Note:
 -- Babel is javascript compliler, transpiler, compliles browser compitable javascript  
 -- React Componnets => Class based componnets and functional componnets  
 -- 🚀 start working with as foundation layed.
+
+## Episode 4
+
+-- Food Ordering App like Swiggy / Zomato
+-- App rugh design  
+-- Config driven UI  
+-- never use index as key
