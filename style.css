@@ -1,11 +1,152 @@
-#child{
-    border: 1px solid red;
-    padding:10px;
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: 'Lexend', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header .navbar {
+    position: relative;
+    margin-left: auto;
+}
+
+.header .navbar .nav-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar .nav-items li {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+.body {
+    position: relative;
+    padding: 20px 0;
+}
+
+.search {}
+
+.restuarant-container {
+    position: relative;
+}
+
+.restuarant-container .title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.restuarant-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.res-card {
+    position: relative;
+    margin: 0 0 30px;
+    max-width: 220px;
+    transition: all 0.1s ease-in-out 0s;
+}
+
+.res-card:hover {
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+}
+
+.res-card .image-container {
+    position: relative;
+    aspect-ratio: 16/10;
+    border-radius: 15px;
+    overflow: hidden;
+    max-height: 250px;
+    width: 220px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.res-card img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.restuarant-description {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.res-card .name {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    color: #02060cbf;
+    margin: 0 0 10px;
+}
+
+.res-card .rating {
+    display: block;
+    color: #02060c99;
     margin-bottom: 10px;
 }
 
-#child2{
-    border:1px solid black;
-    padding:10px;
-    margin-bottom: 10px;
+.rating span,
+.rating svg {
+    vertical-align: middle;
+}
+
+.rating span {
+    margin-left: 5px;
+}
+
+.res-card .cousines,
+.res-card .area {
+    position: relative;
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: #02060c99;
+    font-weight: 300;
 }
