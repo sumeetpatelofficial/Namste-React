@@ -1,51 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import tempData from "./tempData";
-/**
- * header
- * -- Logo
- * -- nav Items
- * body
- * -- Search
- * -- RestuarantContainer
- *    -- RestuarantCard
- * footer
- * -- Copyright
- * -- Links
- * -- Address
- * -- Contact
- */
+import image_CDN from "../utils/constant";
 
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="container d-flex">
-        <div className="logo">Logo</div>
-        <div className="navbar">
-          <ul className="nav-items">
-            <li>Home</li>
-            <li>About us</li>
-            <li>Contact</li>
-            <li>Cart</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-};
-const restaurantsData = tempData;
-
-const RestuarantCard = ({ restaurantsData }) => {
+const RestuarantCard = (props) => {
   // console.log(props.restaurantsData);
-  const { cloudinaryImageId, name, avgRating, cuisines, areaName, sla } =
-    restaurantsData?.info;
+  const { cloudinaryImageId, name, avgRating, cuisines, areaName } =
+    props.restaurantsData;
   return (
     <div className="res-card">
       <div className="image-container">
-        <img
-          src={`https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`}
-          alt=""
-        />
+        <img src={image_CDN + cloudinaryImageId} alt="" />
       </div>
       <div className="restuarant-description">
         <h4 className="name">{name}</h4>
@@ -86,47 +48,10 @@ const RestuarantCard = ({ restaurantsData }) => {
           <span>{avgRating}</span>
         </div>
         <p className="cousines">{cuisines.join(", ")}</p>
-        <p className="area">
-          {areaName} | {sla.lastMileTravelString}
-        </p>
+        <p className="area">{areaName}</p>
       </div>
     </div>
   );
 };
 
-const Body = () => {
-  return (
-    <div className="body">
-      <div className="container">
-        <div className="search">search</div>
-        <div className="restuarant-container">
-          <h4 className="title">{restaurantsData.header.title}</h4>
-          <div className="restuarant-list">
-            {restaurantsData.gridElements.infoWithStyle.restaurants.map(
-              (restaurant) => (
-                <RestuarantCard
-                  key={restaurant.info.id}
-                  restaurantsData={restaurant}
-                />
-              )
-            )}
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const AppLayout = () => {
-  return (
-    <>
-      <Header />
-      <Body />
-    </>
-  );
-};
-
-const rootElement = document.getElementById("app");
-const root = ReactDOM.createRoot(rootElement);
-
-root.render(<AppLayout />);
+export default RestuarantCard;

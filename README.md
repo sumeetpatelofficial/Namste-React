@@ -48,3 +48,14 @@ Note:
 -- App rugh design  
 -- Config driven UI  
 -- never use index as key
+
+## Episode 5 (46.48)
+
+-- 2types of export ==> export default and named export.
+-- Named import can be done with { ... }  
+-- Reconciliation Algorithm / React Fiber
+-- Virtual DOM is representation of a actual DOM
+-- React Hooks
+-> They are normal JS functions
+-> useState() ==> super powerful state varialables to re-render the components as soon as the state variable is updates.
+-> useEffect()

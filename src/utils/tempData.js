@@ -3,6 +3,7 @@ export default data = {
   header: {
     title: "Top restaurant chains in Vadodara",
     action: {},
+
     headerStyling: {
       padding: {
         left: 16,
@@ -11,12 +12,14 @@ export default data = {
       },
     },
   },
+
   layout: {
     rows: 1,
     columns: 20,
     horizontalScrollEnabled: true,
     itemSpacing: 32,
     widgetPadding: {},
+
     containerStyle: {
       containerPadding: {
         left: 16,
@@ -24,6 +27,7 @@ export default data = {
         bottom: 12,
       },
     },
+
     scrollBar: {
       scrollThumbColor: "#E46D47",
       scrollTrackColor: "#02060C",
@@ -36,17 +40,20 @@ export default data = {
         },
       },
     },
+
     widgetTheme: {
       defaultMode: {
         backgroundColour: "#1B3028",
         theme: "THEME_TYPE_DARK",
       },
+
       darkMode: {
         backgroundColour: "#1B3028",
         theme: "THEME_TYPE_DARK",
       },
     },
   },
+
   id: "top_brands_for_you",
   gridElements: {
     infoWithStyle: {
@@ -71,15 +78,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "102747",
             avgRatingString: "4.4",
             totalRatingsString: "1K+",
@@ -91,44 +101,61 @@ export default data = {
               lastMileTravelString: "3.0 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 14:45:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/hotel-sudha-adalja-complex-subhanpura-vadodara-291999",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "107110",
@@ -147,15 +174,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "184877",
             avgRatingString: "4.0",
             totalRatingsString: "10K+",
@@ -167,47 +197,64 @@ export default data = {
               lastMileTravelString: "3.9 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 22:30:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "50% OFF",
               subHeader: "UPTO ₹100",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/shree-kheteshwar-sweets-subhanpura-new-ipcl-road-subhanpura-vadodara-107110",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "68034",
@@ -225,15 +272,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "630",
             avgRatingString: "4.2",
             totalRatingsString: "10K+",
@@ -245,48 +295,65 @@ export default data = {
               lastMileTravelString: "2.4 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 00:45:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "10% OFF",
               subHeader: "ABOVE ₹999",
               discountTag: "FLAT DEAL",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/mcdonalds-old-padra-road-diwalipura-vadodara-68034",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "89813",
@@ -310,15 +377,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "2",
             avgRatingString: "3.9",
             totalRatingsString: "1K+",
@@ -330,44 +400,61 @@ export default data = {
               lastMileTravelString: "0.7 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 00:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/subway-payal-complex-sayajigunj-vadodara-89813",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "80202",
@@ -386,15 +473,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "110165",
             avgRatingString: "4.3",
             totalRatingsString: "5K+",
@@ -406,44 +496,61 @@ export default data = {
               lastMileTravelString: "2.7 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 20:30:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/jay-mahakali-sev-usal-kirti-stambhwala-rajmahal-road-mandvi-vadodara-80202",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "573379",
@@ -461,15 +568,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "166",
             avgRatingString: "4.0",
             totalRatingsString: "1K+",
@@ -481,47 +591,64 @@ export default data = {
               lastMileTravelString: "1.0 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 03:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "EVERY ITEM",
               subHeader: "@ ₹129",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/burger-king-iscon-jan-mahal-sayajigunj-vadodara-573379",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "67453",
@@ -540,15 +667,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "22014",
             avgRatingString: "4.5",
             totalRatingsString: "10K+",
@@ -560,47 +690,64 @@ export default data = {
               lastMileTravelString: "1.3 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 22:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "60% OFF",
               subHeader: "UPTO ₹120",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/jagdish-foods-pvt-ltd-bus-terminal-sayajigunj-sayajiganj-vadodara-67453",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "245003",
@@ -625,15 +772,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "195515",
             avgRatingString: "4.2",
             totalRatingsString: "1K+",
@@ -645,47 +795,64 @@ export default data = {
               lastMileTravelString: "2.4 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 23:59:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "30% OFF",
               subHeader: "UPTO ₹75",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/starbucks-coffee-square-mall-subhanpura-vadodara-245003",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "353968",
@@ -704,15 +871,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "6217",
             avgRatingString: "4.4",
             totalRatingsString: "1K+",
@@ -724,47 +894,64 @@ export default data = {
               lastMileTravelString: "2.5 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 21:45:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "40% OFF",
               subHeader: "UPTO ₹80",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/jagdish-farshan-pvt-ltd-old-padra-road-vadodara-353968",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "76040",
@@ -783,15 +970,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "1002",
             avgRatingString: "3.9",
             totalRatingsString: "1K+",
@@ -803,10 +993,12 @@ export default data = {
               lastMileTravelString: "2.1 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 23:45:00",
               opened: true,
             },
+
             badges: {
               imageBadges: [
                 {
@@ -815,6 +1007,7 @@ export default data = {
                 },
               ],
             },
+
             isOpen: true,
             type: "F",
             badgesV2: {
@@ -829,37 +1022,51 @@ export default data = {
                     },
                   ],
                 },
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "50% OFF",
               discountTag: "FLAT DEAL",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/the-chocolate-room-main-road-fatehgunj-vadodara-76040",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "420296",
@@ -877,15 +1084,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "10761",
             avgRatingString: "4.3",
             totalRatingsString: "50+",
@@ -897,44 +1107,61 @@ export default data = {
               lastMileTravelString: "2.4 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 00:45:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/mcdonalds-gourmet-burger-collection-old-padra-road-akota-vadodara-420296",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "79945",
@@ -952,15 +1179,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 4400,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 4400,
             },
+
             parentId: "98839",
             avgRatingString: "4.1",
             totalRatingsString: "5K+",
@@ -972,44 +1202,61 @@ export default data = {
               lastMileTravelString: "7.7 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 23:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/hotel-durga-road-makarpura-vadodara-79945",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "492310",
@@ -1027,15 +1274,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "22533",
             avgRatingString: "4.3",
             totalRatingsString: "1K+",
@@ -1047,48 +1297,65 @@ export default data = {
               lastMileTravelString: "2.6 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 00:30:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "₹150 OFF",
               subHeader: "ABOVE ₹299",
               discountTag: "FLAT DEAL",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/la-milano-pizzeria-kp-infinity-vadiwadi-vadodara-492310",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "93525",
@@ -1107,15 +1374,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "92340",
             avgRatingString: "4.2",
             totalRatingsString: "1K+",
@@ -1127,47 +1397,64 @@ export default data = {
               lastMileTravelString: "1.8 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 22:30:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "40% OFF",
               subHeader: "UPTO ₹80",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/gwalia-sweets-and-fast-food-emerald-vadiwadi-vadodara-93525",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "566191",
@@ -1191,15 +1478,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "340366",
             avgRatingString: "4.1",
             totalRatingsString: "50+",
@@ -1211,48 +1501,65 @@ export default data = {
               lastMileTravelString: "2.9 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 03:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "15% OFF",
               subHeader: "ABOVE ₹800",
               discountTag: "FLAT DEAL",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/faasos-signature-wraps-and-rolls-patriot-complex-inox-road-ellora-park-hari-nagar-vadodara-566191",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "243133",
@@ -1278,15 +1585,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 3600,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 3600,
             },
+
             parentId: "3952",
             avgRatingString: "4.1",
             totalRatingsString: "100+",
@@ -1298,44 +1608,61 @@ export default data = {
               lastMileTravelString: "5.0 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 03:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/firangi-bake-ongc-road-manjalpur-vadodara-243133",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "301189",
@@ -1353,15 +1680,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 3600,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 3600,
             },
+
             parentId: "11664",
             avgRatingString: "4.3",
             totalRatingsString: "100+",
@@ -1373,47 +1703,64 @@ export default data = {
               lastMileTravelString: "5.0 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 01:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "60% OFF",
               subHeader: "UPTO ₹120",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/pvr-cafe-bhyali-road-bhayli-vadodara-301189",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "242187",
@@ -1432,15 +1779,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "268997",
             avgRatingString: "4.1",
             totalRatingsString: "500+",
@@ -1452,47 +1802,64 @@ export default data = {
               lastMileTravelString: "2.8 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 23:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "40% OFF",
               subHeader: "UPTO ₹80",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/keventers-milkshakes-and-desserts-inorbit-mall-subhanpura-vadodara-242187",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "68105",
@@ -1510,15 +1877,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "4444",
             avgRatingString: "4.2",
             totalRatingsString: "1K+",
@@ -1530,44 +1900,61 @@ export default data = {
               lastMileTravelString: "2.9 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-28 03:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             aggregatedDiscountInfoV2: {},
+
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-patriot-complex-inox-road-ellora-park-hari-nagar-vadodara-68105",
             type: "WEBLINK",
           },
         },
+
         {
           info: {
             id: "336570",
@@ -1585,15 +1972,18 @@ export default data = {
                   name: "BASE_DISTANCE",
                   fee: 2100,
                 },
+
                 {
                   name: "BASE_TIME",
                 },
+
                 {
                   name: "ANCILLARY_SURGE_FEE",
                 },
               ],
               totalFee: 2100,
             },
+
             parentId: "1",
             avgRatingString: "3.9",
             totalRatingsString: "100+",
@@ -1605,42 +1995,58 @@ export default data = {
               lastMileTravelString: "2.8 km",
               iconType: "ICON_TYPE_EMPTY",
             },
+
             availability: {
               nextCloseTime: "2023-07-27 23:00:00",
               opened: true,
             },
+
             badges: {},
+
             isOpen: true,
             type: "F",
             badgesV2: {
               entityBadges: {
                 imageBased: {},
+
                 textBased: {},
+
                 textExtendedBadges: {},
               },
             },
+
             aggregatedDiscountInfoV3: {
               header: "50% OFF",
               subHeader: "UPTO ₹100",
             },
+
             orderabilityCommunication: {
               title: {},
+
               subTitle: {},
+
               message: {},
+
               customIcon: {},
             },
+
             differentiatedUi: {
               displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
               differentiatedUiMediaDetails: {
                 mediaType: "ADS_MEDIA_ENUM_IMAGE",
                 lottie: {},
+
                 video: {},
               },
             },
+
             reviewsSummary: {},
+
             displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
           },
+
           analytics: {},
+
           cta: {
             link: "https://www.swiggy.com/restaurants/cafe-coffee-day-main-road-fatehgunj-vadodara-336570",
             type: "WEBLINK",
@@ -1655,13 +2061,16 @@ export default data = {
           value: 0.41111112,
           reference: "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH",
         },
+
         height: {
           type: "TYPE_RELATIVE",
           value: 0.7027027,
           reference: "RELATIVE_DIMENSION_REFERENCE_WIDTH",
         },
+
         layoutAlignment: "LAYOUT_ALIGNMENT_LEFT",
       },
+
       collectionId: "84124",
     },
   },
